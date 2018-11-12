@@ -146,3 +146,8 @@ class LitecoinPrivateKey(BitcoinPrivateKey):
 
 class NamecoinPrivateKey(BitcoinPrivateKey):
     _pubkeyhash_version_byte = 52
+
+
+class BlockcypherTestnetPrivateKey(BitcoinPrivateKey):
+    _pubkeyhash_version_byte = 20
+
